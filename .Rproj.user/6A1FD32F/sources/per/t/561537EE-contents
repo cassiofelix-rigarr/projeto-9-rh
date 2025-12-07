@@ -1,0 +1,15 @@
+# helpers_supabase.R --------------------------------------------------
+.demo_email  <- "demo@demo.com"
+.demo_senha  <- "123456"
+
+sb_auth_demo <- function(email, senha) {
+  sucesso <- is.character(email) &&
+    is.character(senha) &&
+    identical(trimws(tolower(email)), .demo_email) &&
+    identical(trimws(senha), .demo_senha)
+  
+  list(
+    success    = sucesso,
+    user_email = if (sucesso) email else NA_character_
+  )
+}

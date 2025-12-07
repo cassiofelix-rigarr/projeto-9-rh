@@ -1,0 +1,12 @@
+name: recursos_humanos
+title: recursos_humanos
+username: rigarr
+account: rigarr
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16197893
+bundleId: 11252263
+url: https://rigarr.shinyapps.io/recursos_humanos/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
